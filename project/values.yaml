@@ -1594,7 +1594,7 @@ prometheusOperator:
   ## Prometheus-config-reloader image to use for config and rule reloading
   ##
   prometheusConfigReloaderImage:
-    repository: quay.io/prometheus-operator/prometheus-config-reloader
+    repository: prometheus-operator/prometheus-config-reloader
     tag: v0.49.0
     sha: ""
 
@@ -1609,7 +1609,7 @@ prometheusOperator:
   ## Thanos side-car image when configured
   ##
   thanosImage:
-    repository: quay.io/thanos/thanos
+    repository: thanos/thanos
     tag: v0.17.2
     sha: ""
 
